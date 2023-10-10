@@ -142,7 +142,7 @@ body {
   background: #000;
   font-size: 14px;
   line-height: 1.5;
-  font-family: "Noto Sans KR", "Malgun Gothic", "맑은 고딕", sans-serif;
+  font-family: "Poppins", "Noto Sans KR", "Malgun Gothic", "맑은 고딕", sans-serif;
   color: #d8d8d8;
 }
 
@@ -293,6 +293,13 @@ legend {
   justify-content: space-around;
   align-items: center;
 }
+.my-header .fa-phone {
+  transform: rotate(45deg);
+  font-size: 30px;
+}
+.my-header .fa-envelope {
+  font-size: 30px;
+}
 .my-header h1 {
   transform: rotate(90deg) translateY(-100%);
   transform-origin: top left;
@@ -371,6 +378,26 @@ legend {
   font-size: 20px;
   animation: runningText 45s linear infinite;
 }
+#fullpage .part-1 .mouse {
+  position: absolute;
+  width: 22px;
+  height: 42px;
+  bottom: 40px;
+  left: 50%;
+  margin-left: -12px;
+  border-radius: 15px;
+  border: 2px solid #888;
+  animation: intro 1s;
+}
+#fullpage .part-1 .mouse .scroll {
+  display: block;
+  width: 3px;
+  height: 3px;
+  margin: 6px auto;
+  border-radius: 4px;
+  background: #888;
+  animation: finger 1s infinite;
+}
 @keyframes runningText {
   0% {
     transform: translateX(100%);
@@ -379,14 +406,67 @@ legend {
     transform: translateX(-100%);
   }
 }
+@keyframes intro {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes finger {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
 #fullpage .part-2 {
   padding: 10% 13% 0;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
+#fullpage .part-2 .introskill {
+  display: flex;
+}
+#fullpage .part-2 .my-introduce {
+  display: flex;
+  flex-direction: column;
+  width: 23%;
+}
 #fullpage .part-2 .my-introduce .itd-bnr h2 {
-  color: #d8d8d8;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #73c2fb;
+}
+#fullpage .part-2 .my-introduce .itd-title p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+#fullpage .part-2 .my-introduce .itd-detail p {
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+#fullpage .part-2 .my-introduce .itd-introduce {
+  margin-bottom: 30px;
+  font-size: 17px;
+  line-height: 2;
+}
+#fullpage .part-2 .my-introduce .itd-introduce strong {
+  color: #73c2fb;
+}
+#fullpage .part-2 .my-skill {
+  margin-left: 10%;
+}
+#fullpage .part-2 .my-skill h2 {
+  font-size: 30px;
+  color: #73c2fb;
 }
 #fullpage .part-3 .slide-item {
   position: relative;
@@ -439,7 +519,7 @@ legend {
   transition: all 1s;
 }
 #fullpage .part-3 .slide-item-inner .slide-cover::after {
-  content: " ";
+  content: "";
   display: block;
   position: absolute;
   top: 0;
