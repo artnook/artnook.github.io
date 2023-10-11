@@ -428,45 +428,34 @@ legend {
 #fullpage .part-2 {
   padding: 10% 13% 0;
   display: flex;
-  flex-direction: row;
   justify-content: flex-start;
+  text-align: center;
 }
-#fullpage .part-2 .introskill {
+#fullpage .part-2 h1 {
   display: flex;
-}
-#fullpage .part-2 .my-introduce {
-  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
   flex-direction: column;
-  width: 23%;
 }
-#fullpage .part-2 .my-introduce .itd-bnr h2 {
-  font-size: 30px;
-  margin-bottom: 20px;
-  color: #73c2fb;
+#fullpage .part-2 h1 span {
+  background: linear-gradient(90deg, #000, #73c2fb, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 5s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
-#fullpage .part-2 .my-introduce .itd-title p {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 30px;
+#fullpage .part-2 ul {
+  display: flex;
+  justify-content: space-around;
 }
-#fullpage .part-2 .my-introduce .itd-detail p {
-  font-size: 15px;
-  margin-bottom: 30px;
-}
-#fullpage .part-2 .my-introduce .itd-introduce {
-  margin-bottom: 30px;
-  font-size: 17px;
-  line-height: 2;
-}
-#fullpage .part-2 .my-introduce .itd-introduce strong {
-  color: #73c2fb;
-}
-#fullpage .part-2 .my-skill {
-  margin-left: 10%;
-}
-#fullpage .part-2 .my-skill h2 {
-  font-size: 30px;
-  color: #73c2fb;
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
 }
 #fullpage .part-3 .slide-item {
   position: relative;
