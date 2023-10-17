@@ -67,30 +67,11 @@
         }
       }
     }
-    // .cicrl {
-    //   position: absolute;
-    //   top: 15%;
-    //   .ball1 {
-    //     width: 300px;
-    //     height: 300px;
-    //     border-radius: 50%;
-    //     background-color: #73c2fb;
-    //     // opacity: 0.5;
-    //     position: relative;
-    //     right: -1300px;
-    //     bottom: -150px;
-    //     animation: ball1-1 3s linear infinite alternate;
-    //   }
-    // }
     .my-color-circle {
       position: absolute;
-      top: 55%;
-      width: 300px;
-      height: 300px;
+      top: 40%;
       left: 60%;
-      background-color: #73c2fb;
-      background-color: var(#73c2fb);
-      border-radius: 50%;
+      width: 30%;
     }
     .runningtext-box {
       width: 100%;

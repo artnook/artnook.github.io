@@ -353,13 +353,9 @@ legend {
 }
 #fullpage .part-1 .my-color-circle {
   position: absolute;
-  top: 55%;
-  width: 300px;
-  height: 300px;
+  top: 40%;
   left: 60%;
-  background-color: #73c2fb;
-  background-color: var(#73c2fb);
-  border-radius: 50%;
+  width: 30%;
 }
 #fullpage .part-1 .runningtext-box {
   width: 100%;
