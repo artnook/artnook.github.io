@@ -785,6 +785,7 @@
     opacity: 0;
     box-shadow: 0 0 0 1px #d8d8d8;
     transition: all 0.2s ease-in-out;
+    z-index: -1;
   }
   .social-media-list li:hover {
     background-color: #d8d8d8;
