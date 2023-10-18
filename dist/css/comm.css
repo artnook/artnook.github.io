@@ -142,7 +142,7 @@ body {
   background: #000;
   font-size: 14px;
   line-height: 1.5;
-  font-family: "Poppins", "Noto Sans KR", "Malgun Gothic", "맑은 고딕", sans-serif;
+  font-family: "Hahmlet-Regular", "Poppins", "Noto Sans KR", "Malgun Gothic", "맑은 고딕", sans-serif;
   color: #d8d8d8;
 }
 
@@ -573,16 +573,16 @@ legend {
   padding-top: 2%;
   font-weight: 300;
   word-break: keep-all;
-  font-size: 20px;
+  font-size: 19px;
 }
 #fullpage .part-3 .slide-txt .slide-page-info_1 {
   padding-top: 12%;
   line-height: 1.2;
-  font-size: 22px;
+  font-size: 20px;
 }
 #fullpage .part-3 .slide-txt .slide-page-info_2 {
   padding-top: 2%;
-  font-size: 22px;
+  font-size: 20px;
 }
 #fullpage .part-3 .slide-info .slide-view-btn {
   position: relative;
@@ -715,16 +715,16 @@ legend {
   padding-top: 2%;
   font-weight: 300;
   word-break: keep-all;
-  font-size: 20px;
+  font-size: 19px;
 }
 #fullpage .part-4 .slide-txt .slide-page-info_1 {
   padding-top: 12%;
   line-height: 1.2;
-  font-size: 22px;
+  font-size: 20px;
 }
 #fullpage .part-4 .slide-txt .slide-page-info_2 {
   padding-top: 2%;
-  font-size: 22px;
+  font-size: 20px;
 }
 #fullpage .part-4 .slide-info .slide-view-btn {
   position: relative;
@@ -856,16 +856,16 @@ legend {
   padding-top: 2%;
   font-weight: 300;
   word-break: keep-all;
-  font-size: 20px;
+  font-size: 19px;
 }
 #fullpage .part-5 .slide-txt .slide-page-info_1 {
   padding-top: 12%;
   line-height: 1.2;
-  font-size: 22px;
+  font-size: 20px;
 }
 #fullpage .part-5 .slide-txt .slide-page-info_2 {
   padding-top: 2%;
-  font-size: 22px;
+  font-size: 20px;
 }
 #fullpage .part-5 .slide-info .slide-view-btn {
   position: relative;
@@ -911,7 +911,7 @@ legend {
   text-align: center;
   margin: 0 auto;
   padding: 40px 0;
-  font: 300 60px "Poppins";
+  font: 300 60px "Hahmlet-Regular";
   color: #d8d8d8;
   text-transform: uppercase;
   letter-spacing: 6px;
@@ -932,7 +932,7 @@ legend {
 .part-7 textarea {
   max-width: 400px;
   background-color: #000;
-  font-family: "Poppins";
+  font-family: "Hahmlet-Regular";
   color: #d8d8d8;
   letter-spacing: 1px;
 }
@@ -969,7 +969,7 @@ legend {
   color: #aaa;
 }
 .part-7 .contact-text {
-  font: 300 18px "Poppins";
+  font: 300 18px "Hahmlet-Regular";
   letter-spacing: 1.9px;
   color: #bbb;
 }
