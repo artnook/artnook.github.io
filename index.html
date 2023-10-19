@@ -294,7 +294,7 @@
             class="form-horizontal"
             role="form"
             method="post"
-            target="iframe 이메일 보내주셔서 감사합니다"
+            target="frAttachFiles"
             action="https://script.google.com/macros/s/AKfycbw1oSL4ACPw5IJpeny6KMWHVwKMw3a4satcIfoinudQSjjQYkn6Qu8oOVOyAycTGq9A/exec"
           >
             <div class="form-group">
@@ -342,11 +342,7 @@
               </div>
             </button>
           </form>
-          <script
-            data-cfasync="false"
-            type="text/javascript"
-            src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"
-          ></script>
+          <iframe name="frAttachFiles" style="display: none"></iframe>
           <!-- Left contact page -->
           <div class="direct-contact-container">
             <ul class="contact-list">
