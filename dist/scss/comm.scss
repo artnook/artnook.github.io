@@ -330,6 +330,7 @@
         transform: translate(80%, 80%);
         transition: all 0.2s;
         overflow: hidden;
+        left: -152px;
         &:hover {
           border-color: transparent;
           color: #d8d8d8;
@@ -641,6 +642,7 @@
         transform: translate(80%, 80%);
         transition: all 0.2s;
         overflow: hidden;
+        left: -152px;
         &:hover {
           border-color: transparent;
           color: #d8d8d8;
@@ -721,7 +723,7 @@
         background-color: rgba(0, 0, 0, 0.3);
       }
       &:hover img {
-        transform: translateY(-80%);
+        transform: translateY(-78%);
         transition: all 15s;
       }
       &:hover::after {

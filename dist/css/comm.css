@@ -598,6 +598,7 @@ legend {
   transform: translate(80%, 80%);
   transition: all 0.2s;
   overflow: hidden;
+  left: -152px;
 }
 #fullpage .part-3 .slide-info .slide-view-btn:hover {
   border-color: transparent;
@@ -881,6 +882,7 @@ legend {
   transform: translate(80%, 80%);
   transition: all 0.2s;
   overflow: hidden;
+  left: -152px;
 }
 #fullpage .part-5 .slide-info .slide-view-btn:hover {
   border-color: transparent;
@@ -958,7 +960,7 @@ legend {
   background-color: rgba(0, 0, 0, 0.3);
 }
 .part-6 .slide-item-inner .slide-cover:hover img {
-  transform: translateY(-80%);
+  transform: translateY(-78%);
   transition: all 15s;
 }
 .part-6 .slide-item-inner .slide-cover:hover::after {
