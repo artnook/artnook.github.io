@@ -72,6 +72,7 @@ ol,
 menu,
 li {
   list-style: none;
+  width: 100%;
 }
 
 blockquote,
@@ -447,9 +448,6 @@ legend {
   justify-content: center;
   margin-top: -60px;
   gap: 20%;
-}
-#fullpage .part-2 ul li:nth-child(3) {
-  width: 19%;
 }
 #fullpage .part-2 ul li h2 {
   border-bottom: 1px solid;
