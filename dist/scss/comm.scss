@@ -1031,6 +1031,20 @@
         width: 99%;
       }
     }
+    @media screen and (max-width: 390px) {
+      .form-control,
+      textarea {
+        margin: 0;
+      }
+      .send-button {
+        width: 87%;
+      }
+      .alt-send-button {
+        fa {
+          margin-left: -13%;
+        }
+      }
+    }
   }
 }
 @media screen and (max-width: 1440px) {
@@ -1540,6 +1554,29 @@
       .section-header {
         font: 300 50px "Hahmlet-Regular";
         margin-top: 5%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 390px) {
+  #fullpage {
+    .part-1 {
+      .my-image {
+        .part-1-box {
+          left: 105px;
+        }
+        .part-2-box {
+          left: 242px;
+        }
+      }
+    }
+    .part-7 {
+      textarea {
+        width: 350px;
+      }
+      .section-header {
+        font: 300 50px "Hahmlet-Regular";
+        margin-top: 10%;
       }
     }
   }

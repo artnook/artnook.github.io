@@ -1253,6 +1253,18 @@ legend {
     width: 99%;
   }
 }
+@media screen and (max-width: 390px) {
+  #fullpage .part-7 .form-control,
+  #fullpage .part-7 textarea {
+    margin: 0;
+  }
+  #fullpage .part-7 .send-button {
+    width: 87%;
+  }
+  #fullpage .part-7 .alt-send-button fa {
+    margin-left: -13%;
+  }
+}
 
 @media screen and (max-width: 1440px) {
   #fullpage .part-1 .my-color-circle {
@@ -1632,5 +1644,20 @@ legend {
   #fullpage .part-7 .section-header {
     font: 300 50px "Hahmlet-Regular";
     margin-top: 5%;
+  }
+}
+@media screen and (max-width: 390px) {
+  #fullpage .part-1 .my-image .part-1-box {
+    left: 105px;
+  }
+  #fullpage .part-1 .my-image .part-2-box {
+    left: 242px;
+  }
+  #fullpage .part-7 textarea {
+    width: 350px;
+  }
+  #fullpage .part-7 .section-header {
+    font: 300 50px "Hahmlet-Regular";
+    margin-top: 10%;
   }
 }/*# sourceMappingURL=comm.css.map */

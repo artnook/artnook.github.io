@@ -533,6 +533,11 @@ textarea.input-lg {
     margin-right: 10px;
   }
 }
+@media screen and (max-width: 390px) {
+  .form-horizontal .form-group {
+    margin-right: 50px;
+  }
+}
 
 .btn {
   display: inline-block;
