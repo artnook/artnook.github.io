@@ -528,6 +528,11 @@ textarea.input-lg {
     font-size: 12px;
   }
 }
+@media screen and (max-width: 428px) {
+  .form-horizontal .form-group {
+    margin-right: 10px;
+  }
+}
 
 .btn {
   display: inline-block;
@@ -4946,7 +4951,6 @@ button.close {
     bottom: 20px;
   }
 }
-
 .btn-group-vertical > .btn-group:after,
 .btn-group-vertical > .btn-group:before,
 .btn-toolbar:after,
