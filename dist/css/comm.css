@@ -1218,17 +1218,8 @@ legend {
     float: none;
     margin: 0 auto;
   }
-  #fullpage .part-7 .form-control,
-  #fullpage .part-7 textarea {
-    margin: 0 auto;
-  }
-  #fullpage .part-7 .name,
-  #fullpage .part-7 .email,
-  #fullpage .part-7 textarea {
-    width: 280px;
-  }
   #fullpage .part-7 .direct-contact-container {
-    margin-top: 60px;
+    margin-top: 10px;
     max-width: 280px;
   }
   #fullpage .part-7 .social-media-list {
@@ -1244,6 +1235,16 @@ legend {
     width: 55px;
     height: 55px;
     line-height: 55px;
+  }
+}
+@media screen and (max-width: 428px) {
+  #fullpage .part-7 .name,
+  #fullpage .part-7 .email,
+  #fullpage .part-7 textarea {
+    width: 390px;
+  }
+  #fullpage .part-7 #fullpage .part-7 .direct-contact-container {
+    margin-top: 10px;
   }
 }
 @media screen and (max-width: 410px) {
@@ -1503,18 +1504,21 @@ legend {
 @media screen and (max-width: 428px) {
   .my-header {
     font-size: 12px;
+    height: 50px;
   }
   #fp-nav {
     display: none;
   }
   #fullpage .part-1 .my-image .part-1-box {
     left: 134px;
+    top: -290px;
   }
   #fullpage .part-1 .my-image .part-1-box img {
     max-width: 85%;
   }
   #fullpage .part-1 .my-image .part-2-box {
     left: 270px;
+    top: -110px;
   }
   #fullpage .part-1 .my-image .part-2-box img {
     max-width: 85%;
@@ -1528,7 +1532,7 @@ legend {
     font-size: 35px;
   }
   #fullpage .part-2 h1 {
-    margin-top: 70px;
+    margin-top: 2px;
     margin-bottom: 70px;
     font-size: 18px;
   }
@@ -1657,5 +1661,9 @@ legend {
   #fullpage .part-7 .section-header {
     font: 300 50px "Hahmlet-Regular";
     margin-top: 10%;
+    padding: 20px 0;
+  }
+  #fullpage .part-7 .fa-paper-plane {
+    margin-left: -57px;
   }
 }/*# sourceMappingURL=comm.css.map */

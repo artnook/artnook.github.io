@@ -995,17 +995,8 @@
         float: none;
         margin: 0 auto;
       }
-      .form-control,
-      textarea {
-        margin: 0 auto;
-      }
-      .name,
-      .email,
-      textarea {
-        width: 280px;
-      }
       .direct-contact-container {
-        margin-top: 60px;
+        margin-top: 10px;
         max-width: 280px;
       }
       .social-media-list {
@@ -1023,6 +1014,17 @@
         line-height: 55px;
       }
     }
+    @media screen and (max-width: 428px) {
+      .name,
+      .email,
+      textarea {
+        width: 390px;
+      }
+      #fullpage .part-7 .direct-contact-container {
+        margin-top: 10px;
+      }
+    }
+
     @media screen and (max-width: 410px) {
       .send-button {
         width: 99%;
@@ -1360,6 +1362,7 @@
 @media screen and (max-width: 428px) {
   .my-header {
     font-size: 12px;
+    height: 50px;
   }
   #fp-nav {
     display: none;
@@ -1369,12 +1372,14 @@
       .my-image {
         .part-1-box {
           left: 134px;
+          top: -290px;
           img {
             max-width: 85%;
           }
         }
         .part-2-box {
           left: 270px;
+          top: -110px;
           img {
             max-width: 85%;
           }
@@ -1393,7 +1398,7 @@
     }
     .part-2 {
       h1 {
-        margin-top: 70px;
+        margin-top: 2px;
         margin-bottom: 70px;
         font-size: 18px;
         span {
@@ -1574,6 +1579,10 @@
       .section-header {
         font: 300 50px "Hahmlet-Regular";
         margin-top: 10%;
+        padding: 20px 0;
+      }
+      .fa-paper-plane {
+        margin-left: -57px;
       }
     }
   }
