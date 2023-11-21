@@ -414,6 +414,11 @@
           background-color: rgba(0, 0, 0, 0.1);
         }
       }
+      .slide-btn {
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+      }
       .slide-info {
         width: 26%;
         font-size: 1.6rem;
@@ -626,7 +631,8 @@
     .slide-btn {
       display: flex;
       justify-content: space-between;
-      width: 70%;
+      width: 90%;
+      gap: 10px;
     }
     .slide-info {
       .slide-view-btn {
@@ -1172,6 +1178,9 @@
             margin: 10px auto 0;
             font-size: 1.2rem;
           }
+        }
+        .slide-btn {
+          width: 100%;
         }
       }
       .slide-txt {

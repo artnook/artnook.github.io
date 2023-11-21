@@ -679,6 +679,11 @@ legend {
   transition: all 0.2s;
   background-color: rgba(0, 0, 0, 0.1);
 }
+#fullpage .part-4 .slide-item-inner .slide-btn {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
 #fullpage .part-4 .slide-item-inner .slide-info {
   width: 26%;
   font-size: 1.6rem;
@@ -868,7 +873,8 @@ legend {
 #fullpage .part-5 .slide-btn {
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 90%;
+  gap: 10px;
 }
 #fullpage .part-5 .slide-info .slide-view-btn {
   position: relative;
@@ -1363,6 +1369,9 @@ legend {
     transform: none;
     margin: 10px auto 0;
     font-size: 1.2rem;
+  }
+  #fullpage .part-4 .slide-item-inner .slide-btn {
+    width: 100%;
   }
   #fullpage .part-4 .slide-txt .slide-page-info_1 {
     padding-top: 2%;
